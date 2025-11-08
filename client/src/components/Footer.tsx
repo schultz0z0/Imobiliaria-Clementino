@@ -33,11 +33,11 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Navegação</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/imoveis"><a className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-imoveis">Imóveis</a></Link></li>
-              <li><Link href="/servicos"><a className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-servicos">Serviços</a></Link></li>
-              <li><Link href="/sobre"><a className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-sobre">Sobre Nós</a></Link></li>
-              <li><Link href="/blog"><a className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-blog">Blog</a></Link></li>
-              <li><Link href="/contato"><a className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-contato">Contato</a></Link></li>
+              <li><Link href="/imoveis" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-imoveis">Imóveis</Link></li>
+              <li><Link href="/servicos" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-servicos">Serviços</Link></li>
+              <li><Link href="/sobre" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-sobre">Sobre Nós</Link></li>
+              <li><Link href="/blog" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-blog">Blog</Link></li>
+              <li><Link href="/contato" className="text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-contato">Contato</Link></li>
             </ul>
           </div>
 

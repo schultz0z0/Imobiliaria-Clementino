@@ -1,0 +1,23 @@
+Quero que você crie da melhor forma um web site completo para minha imobiliária (Imobiliária Clementino) que usa um modelo de negócios B2B e B2C.
+
+Minha imobiliária atua desde 2010 na área de compra, venda, administração, legalização e avaliação de bens imóveis.
+
+Além do Site empresarial completo (a nivel das maiores imobiliarias do ramo), para mostrar meus serviços da melhor forma, falar sobre a empresa, mostrar meus imoveis que estão alugando, vendendo e também fazer com que o 'dono de um imovel que quer vender ou alugar entre em contato comigo para eu oferecer meu serviço para vender/alugar pra ele'.
+
+Também quero uma estrutura privada, somente para mim (e inicialmente, mais ninguém - acesso único) Para ser meu CMS desse site. Aonde eu possa adicionar conteúdo, editar, excluir, destacar. Visualizar performance de acessos no site, dashboards, banners, logo, tudo que um CMS de qualidade deve possuir para um site de uma imobiliaria.
+
+Além disso, esse meu CMS (painel administrativo) irá além da gestão de conteúdos do site, ele terá uma divisão para separar o agrupamento das funcionalidades da gestão do site, gestão da imobiliaria e Assistente IA.
+
+Lembrando que Tanto no Site, tanto no CMS. Devemos sempre ter uma EXCELENTE qualidade de UI/UX e sempre bem visual com imagens, brandbook bem definido(tipografia também).
+
+Agrupamentos de funcionalidades no nosso CMS:
+
+Gestão do site é o ponto que mencionei já.
+
+Gestão da Imobiliária: Precisamos ter todo o controle completo de imoveis, locatario, locador, gestão de leads(pessoas que demonstrarão interesse em um imovel preenchendo formulário no site de interesse de imovel), documentações, enfim Tudo que um gestor de imobiliária precisa ter para ser eficaz.
+
+Assistente IA: Aqui eu farei uma integração com a plataforma "N8N" aonde desenvolverei meu Agent IA completo e farei a integração dele no nosso software. Meu Agent será focado em duas funções, ser um chatbot para conversa livre(internamente no n8n irei treinar tudo direitinho) e a outra função é: Desenvolver contratos legais (relacionado a questões de imobiliária), aqui é importante mencionar que eu gostaria de preencher um pequeno formulário de informações relevantes que devem constar no contrato que a IA irá gerar (como nome, dados do cliente, dados de ambas as partes e OBJETIVO DO CONTRATO) após enviar o formulário meu Agent IA (já treinado) irá analisar as informações 'unicas' que devem ser a fonte de dados e objetivo desse contrato e gerar o contrato COMPLETO em documento Word (ou PDF) eu gostaria de poder baixar tanto word como pdf. Após a geração do contrato eu gostaria de validar numa pré-visualização, aonde eu irei clicar em um botão para "aprovar" ou "refinar".
+
+Obs.: Se eu clicar em Refinar, deve ser aberto uma box para eu colocar especificações e observações de correção para gerar novamente uma versão melhorada.
+
+IMPORTANTE: Eu ainda estou desenvolvendo meu Agent IA (no N8N) então por enquanto vamos preparar terreno.

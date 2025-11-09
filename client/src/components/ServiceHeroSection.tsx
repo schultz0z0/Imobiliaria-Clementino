@@ -63,7 +63,13 @@ export default function ServiceHeroSection() {
         </motion.div>
       </div>
       
-      <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-white via-white/80 via-white/40 to-transparent" />
+      <div 
+        className="absolute bottom-0 left-0 right-0"
+        style={{
+          height: '20rem',
+          background: 'linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 10%, rgba(255, 255, 255, 0.95) 20%, rgba(255, 255, 255, 0.85) 35%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.5) 65%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0) 100%)'
+        }}
+      />
     </section>
   );
 }

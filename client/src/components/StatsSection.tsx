@@ -61,7 +61,7 @@ function StatItem({ icon: Icon, value, label, suffix = "", delay }: StatItemProp
 
 export default function StatsSection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-primary/5 to-secondary/5">
+    <section className="py-20 px-4 bg-white">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

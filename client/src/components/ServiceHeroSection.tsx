@@ -5,14 +5,13 @@ export default function ServiceHeroSection() {
   return (
     <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center scale-105"
         style={{
           backgroundImage: `url(${heroImage})`,
-          backgroundAttachment: "fixed",
         }}
       />
       
-      <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-secondary/80" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-secondary/75" />
       
       <div className="container mx-auto px-4 relative z-10">
         <motion.div

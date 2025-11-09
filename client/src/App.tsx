@@ -3,6 +3,7 @@ import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import ScrollToTop from "@/components/ScrollToTop";
 import Home from "@/pages/Home";
 import Properties from "@/pages/Properties";
 import PropertyDetail from "@/pages/PropertyDetail";
@@ -17,19 +18,22 @@ import NotFound from "@/pages/not-found";
 
 function Router() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-      <Route path="/imoveis" component={Properties} />
-      <Route path="/imoveis/:id" component={PropertyDetail} />
-      <Route path="/servicos" component={Services} />
-      <Route path="/sobre" component={About} />
-      <Route path="/blog" component={Blog} />
-      <Route path="/blog/:id" component={BlogArticle} />
-      <Route path="/contato" component={Contact} />
-      <Route path="/anunciar" component={Advertise} />
-      <Route path="/admin" component={AdminLoginPage} />
-      <Route component={NotFound} />
-    </Switch>
+    <>
+      <ScrollToTop />
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/imoveis" component={Properties} />
+        <Route path="/imoveis/:id" component={PropertyDetail} />
+        <Route path="/servicos" component={Services} />
+        <Route path="/sobre" component={About} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/blog/:id" component={BlogArticle} />
+        <Route path="/contato" component={Contact} />
+        <Route path="/anunciar" component={Advertise} />
+        <Route path="/admin" component={AdminLoginPage} />
+        <Route component={NotFound} />
+      </Switch>
+    </>
   );
 }
 

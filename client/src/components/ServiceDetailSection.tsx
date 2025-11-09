@@ -126,7 +126,7 @@ export default function ServiceDetailSection({
               <Button
                 onClick={onOpenModal}
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-white font-semibold group"
+                className="bg-accent hover:bg-accent/90 text-white font-semibold group shadow-sm border-0"
                 data-testid={`service-button-${title.toLowerCase().replace(/\s+/g, '-')}`}
               >
                 Contratar Serviço

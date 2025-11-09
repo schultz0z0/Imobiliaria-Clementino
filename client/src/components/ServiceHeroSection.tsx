@@ -3,7 +3,7 @@ import heroImage from "@assets/generated_images/Premium_real_estate_office_hero_
 
 export default function ServiceHeroSection() {
   return (
-    <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <section className="relative h-[75vh] min-h-[650px] flex items-center justify-center overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center scale-105"
         style={{

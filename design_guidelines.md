@@ -82,8 +82,16 @@ Featured images (1200x630px) for article headers, inline images for content illu
 - Subtle fade-ins on scroll (100-200ms delay)
 - Smooth transitions for interactive elements (200-300ms)
 - Property card hover effects (image zoom, button reveal)
-- NO heavy scroll-triggered animations or parallax effects
 - Focus: Performance and professional feel over flashy effects
+
+**Premium Pages Exception (Services Page)**:
+- Subtle parallax effects allowed for premium storytelling sections
+- Advanced scroll-triggered animations for service reveals
+- Micro-interactions and hover effects for enhanced engagement
+- Smooth parallax scroll on hero and service section backgrounds (0.5-0.7 speed)
+- Fade-in and slide-up animations on service cards as they enter viewport
+- Counter animations for statistics sections
+- Must maintain 60fps performance on modern devices
 
 ## Accessibility
 - WCAG AA minimum contrast ratios
